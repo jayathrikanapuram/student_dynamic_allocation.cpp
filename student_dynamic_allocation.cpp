@@ -18,7 +18,7 @@ cin.ignore();
 cout<<"Enter name : ";
 getline(cin, name);
 cout << "Enter marks : ";
-cin >> "marks;
+cin >> "marks";
     }
 void display(){
     cout << rollNumber << "\t" << name << "\t" << marks<< endl;
@@ -43,3 +43,4 @@ student[i].display();
 delete[] Students;
 return 0;
 }
+
